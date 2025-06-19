@@ -45,7 +45,7 @@ jobs:
     - name: Plan Terraform changes
       run: terraform plan -out=tfplan
 
-    # Add a prompt to ask the user whether to apply or destroy changes --
+    # Add a prompt to ask the user whether to apply or destroy changes -
     - name: Apply Terraform changes
       run: terraform apply --auto-approve
 
